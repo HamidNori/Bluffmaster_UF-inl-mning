@@ -1,4 +1,10 @@
 .navbar a:hover{
-    transform: scale(1);
-    transition: ease-out 0.2s;
+    transform: scale(0.9);
+    transition: ease-in 0.2s;
+}
+
+.Main #hem .grid-container .lefte-side button:hover{
+    background-color: yellowgreen;
+    transition: ease-in 0.2s;
+
 }

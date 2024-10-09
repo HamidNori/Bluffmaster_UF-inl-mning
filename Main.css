@@ -1,5 +1,9 @@
 body{
     background-color: #FEFAF5;
+    padding: 0;
+    margin: 0;
+    scrollbar-width: none;
+    
 }
 
 .navbar ul{
@@ -16,8 +20,9 @@ body{
     padding: 30px;
     display: block;
     text-align: center;
-    transform: scale(0.9);
+    transform: scale(1);
     transition: ease-in 0.2s;
+    cursor: pointer;
 }
 
 
@@ -25,6 +30,22 @@ body{
     float: left;
 }
 
-.Main #hem h1{
-    margin: 30px;
+.Main #hem .grid-container{
+
 }
+
+
+.Main #hem .grid-container .left-side button{
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 2em;
+    border: none;
+    outline: none;
+    margin-top: 450px;
+    margin-left: -440px;
+    background-color: #F5BB6E;
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
+

@@ -1,0 +1,10 @@
+.Main #hem .grid-container .right-side .Cards{
+    width: 1000px;
+    height: auto;
+    z-index: -2;
+    margin-top: -573px;
+    padding: 0;
+    float: right;
+    display: flex;
+}
+
