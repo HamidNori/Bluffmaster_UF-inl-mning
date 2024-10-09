@@ -1,0 +1,4 @@
+.navbar a:hover{
+    transform: scale(1);
+    transition: ease-out 0.2s;
+}
