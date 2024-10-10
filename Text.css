@@ -28,3 +28,30 @@ body{
     font-weight: 550;
 
 }
+
+.Straffkort-h{
+    translate: 680px 200px;
+}
+
+.Straffkort-p{
+    translate: 680px 190px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Vuxen-h{
+    translate: 1365px 10px;
+}
+
+.Vuxen-p {
+    translate: 1365px;
+}
+
+.Barn-h{
+    translate: 1060px 500px;
+}
+
+.Barn-p{
+    translate: 1060px 490px;
+
+}
