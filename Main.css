@@ -3,7 +3,12 @@ body{
     padding: 0;
     margin: 0;
     scrollbar-width: none;
-    
+    overflow-x: hidden;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
 }
 
 .navbar ul{
@@ -43,18 +48,19 @@ body{
     border: none;
     outline: none;
     margin-top: 450px;
-    margin-left: -440px;
+    margin-left: -415px;
     background-color: #F5BB6E;
     cursor: pointer;
     transition: ease-in 0.2s;
 }
+
 
 section {
     height: 100vh;
 }
 
 #om {
-    background-color: aqua;
+    background-color: FEFAF5;
     height: 100vh;
 }
 

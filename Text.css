@@ -1,5 +1,5 @@
 body{
-    font-family: helvetica;
+    font-family: inter, sans-serif;
 }
 
 
@@ -28,9 +28,27 @@ body{
     font-weight: 550;
 
 }
+.Main #om .om-kort .multi-color{
+    margin-left: 200px;
+    margin-top: 200px ;
+    float: left;
+    font-size: 80px;
+    background-image: linear-gradient(
+            #F5BB6E 0%,
+            #EC606C 24%,
+            #EC606C 36%,
+            #4364EF 56%,
+            #4364EF 69%,
+            #41D589 83%,
+            #41D589 94%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 550;
+}
 
 .Straffkort-h{
     translate: 680px 200px;
+    
 }
 
 .Straffkort-p{
