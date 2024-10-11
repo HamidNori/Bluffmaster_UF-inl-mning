@@ -1,5 +1,5 @@
 body{
-    font-family: inter, sans-serif;
+    font-family: "inter", sans-serif;
 }
 
 
@@ -28,7 +28,7 @@ body{
     font-weight: 550;
 
 }
-.Main #om .om-kort .multi-color{
+.Main #om .multi-color{
     margin-left: 200px;
     margin-top: 200px ;
     float: left;

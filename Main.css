@@ -40,7 +40,7 @@ body{
 }
 
 
-.Main #hem .grid-container .left-side button{
+button{
     text-decoration: none;
     padding: 0.5em 1em;
     margin: 0.25em;
@@ -60,7 +60,7 @@ section {
 }
 
 #om {
-    background-color: FEFAF5;
+    background-color: #FEFAF5;
     height: 100vh;
 }
 

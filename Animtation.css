@@ -3,7 +3,7 @@
     transition: ease-in 0.2s;
 }
 
-.Main #hem .grid-container .lefte-side button:hover{
+button:hover{
     background-color: yellowgreen;
     transition: ease-in 0.2s;
 
