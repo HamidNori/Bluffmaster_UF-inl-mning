@@ -1,17 +1,21 @@
-.Cards{
-    width: 1000px;
+.Cards {
+    max-width: 100%;
     height: auto;
-    z-index: -2;
-    margin-top: -573px;
-    padding: 0;
-    float: right;
-    display: flex;
+    display: block; 
+    margin-top: -130px;
+    margin-right: -200px;
+    z-index: -1;
+}
+
+.om-kort{
+    margin: 80px;
+    margin-right: 80px;
+}
+
+.om-kort img{
+    width: 350px;
+    height: auto;
+    align-items: center;
 }
 
 
-.olika-kort{
-    margin-left:500px ;
-    margin-top: -200px;
-    width:1000px;
-    height:auto;
-}

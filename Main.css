@@ -1,3 +1,4 @@
+
 body{
     background-color: #FEFAF5;
     padding: 0;
@@ -6,9 +7,19 @@ body{
     overflow-x: hidden;
 }
 
+.Header {
+    width: 50%;
+}
+
 .navbar{
-    position: sticky;
+    position: fixed;
+    z-index: 1000; 
     top: 0;
+    left: 0;
+    background-color: #F5BB6E;
+    border: #F5BB6E solid;
+    border-bottom-right-radius: 50px ;
+
 }
 
 .navbar ul{
@@ -36,9 +47,29 @@ body{
 }
 
 .Main #hem .grid-container{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-between;
+        align-items: center;
 
 }
 
+
+
+.left-side, .right-side {
+    flex: 1 1 45%; 
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .left-side, .right-side {
+        flex: 1 1 100%; 
+    }
+    
+    .Cards {
+        max-width: 100%; 
+    }
+}
 
 button{
     text-decoration: none;
@@ -47,7 +78,7 @@ button{
     border-radius: 2em;
     border: none;
     outline: none;
-    margin-top: 450px;
+    margin-top: 200px;
     margin-left: -415px;
     background-color: #F5BB6E;
     cursor: pointer;
@@ -60,6 +91,7 @@ section {
 }
 
 #om {
+    margin-top: 300px;
     background-color: #FEFAF5;
     height: 100vh;
 }
