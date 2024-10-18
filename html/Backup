@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluffmaster UF</title>
+    <link rel="stylesheet" href="/CSS/Animtation.css">
+    <link rel="stylesheet" href="/CSS/Main.css">
+    <link rel="stylesheet" href="/CSS/Photos.css">
+    <link rel="stylesheet" href="/CSS/Text.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <div class="Header">
+    <nav class="navbar">
+        <ul>
+            <li><a href="hem.html">Hem</a></li>
+            <li><a href="om.html">Om</a></li>
+            <li><a href="#kontakter">Kontakter</a></li>
+        </ul>
+    </nav>
+  </div>
+
+  <div class="Main">
+    <section id="hem">
+      <div class="grid-container">
+          <div class="left-side">
+              <div class="multi-color">Bluffmaster</div>
+              <button type="button">Läs Mer</button>
+          </div>
+          <div class="right-side">
+              <img src="/Images/Bilder.png" alt="Bluffmaster" class="Cards">
+          </div>
+      </div>
+    </section>
+  
+    <section id="om">
+      <div class="Kort">
+        <div class="multi-color"><h3>Om</h3><p>Bluffkort – Det Ultimata Spelet för Spänning och Skratt! <br>
+          
+
+          Vår unika kortlek är designad för att skapa oförglömliga stunder av skratt och spänning. Med 54 kort som kombinerar roliga påståenden och utmanande straffkort, är Bluffkort perfekt för spelkvällar med familj och vänner.
+  
+          Korten är tryckta på högkvalitativt, slitstarkt material med en matt yta för att ge en lyxig känsla. Med sin kompakta storlek är Bluffkort enkelt att ta med sig – perfekt för fester, resor och spontana spelkvällar.
+          
+          Ta med Bluffkort till nästa tillställning och upplev hur mycket roligare det blir när ingen kan veta vem som talar sanning, och vem som bluffar!
+          </p><p>
+          Kortleken innehåller:
+          <br>
+          20 påståendekort för tonåringar och vuxna – Kreativa, pinsamma och spännande påståenden som utmanar spelarna att bluffa eller berätta sanningen.
+          <br>
+          20 straffkort – Fyllda med roliga och pinsamma uppdrag som spelaren måste utföra om de blir avslöjade.
+          <br>
+          14 påståendekort för barn – Anpassade, lättsamma påståenden som gör spelet tillgängligt för alla åldrar.
+          <br>
+          </p></div>
+        <div class="beskvning"></div>
+        <div class="om-kort">
+          <img src="/Images/röd.png" alt="Grönkort-framsida">
+          <img src="/Images/grön.png" alt="Rödkort-framsida">
+          <img src="/Images/gul.png" alt="Gulkort-framsida">
+        </div>
+      </div>
+    </section>
+    <section id="kontakter">
+        <div class="Kontakter">
+            <h3 class="multi-color">Kontakter</h3>
+            <p>Bluffmaster UF<br>
+                Gamla Storgatan 10<br>
+                123 45 Stockholm<br>
+                Tel: +46 123 456 7890<br>
+                E-post: info@bluffmasteruf.se<br>
+            </p>
+        </div>
+        <div class="karta">
+            <img src="/Images/karta.png" alt="Bluffmaster UF Karta">
+        </div>
+
+
+    </section>
+
+  </div>
+
+</body>
+</html>
