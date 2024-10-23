@@ -8,14 +8,11 @@
 }
 
 .om-kort{
-    margin: 80px;
-    margin-right: 80px;
-}
-
-.om-kort img{
-    width: 350px;
-    height: auto;
+    display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    position:absolute;
+    width: 100%;
+    translate: 0 1000px;
 }
-
 

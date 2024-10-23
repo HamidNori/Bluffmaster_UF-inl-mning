@@ -73,8 +73,9 @@ button {
     background-color: #F5BB6E;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-top: 30px;
-    margin-left: 100px;
+    position:absolute;
+    top: 650px;
+    left: 100px;
 }
 
 
@@ -91,10 +92,7 @@ button {
     );
 }
 
-.slider:hover .item{
-    animation-play-state: paused!important;
 
-}
 .slider .list{
     display: flex;
     width: 100%;
@@ -125,16 +123,25 @@ button {
 
 
 
-section {
-    max-width: 100%;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    height: auto;
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    background-color: #F5BB6E;
+    color: white;
+    height: 150px;
 }
 
-#om, #kontakter {
-    margin-top: 100px;
-    background-color: #FEFAF5;
-    height: 200vh;
+.social-icon ion-icon{
+    font-size: 70px;
+    color: #f9f9f9;
+    
 }
+
+.social-icon ion-icon:hover{
+    color: #000;
+    transition: ease 0.3s;
+}
+
+
