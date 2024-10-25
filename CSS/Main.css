@@ -79,7 +79,7 @@ button {
 }
 
 
-/* FOOTER */
+
 .slider{
     width: 100%;
     height: var(--height);
@@ -144,4 +144,128 @@ button {
     transition: ease 0.3s;
 }
 
+/* HEM */
+
+
+/* OM */
+.main #saker2 .grid-container {
+    display: grid; 
+    grid-template-areas: 
+        "main main side"
+        ;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: auto 1fr auto; 
+    height: 100vh; 
+    gap: 5px;
+}
+
+
+
+
+.main #saker2 .main {
+    grid-area: main;
+    background-color: #c4c4c4;
+    padding: 20px;
+    font-size: 18px;
+    color: #2d3436;
+    border-top-left-radius: 30px ;
+}
+
+
+.main #saker2 .main .grid-container-about {
+    display: grid;
+    grid-template-areas: 
+    "sektion1 sektion1 sektion2"
+    "sektion1 sektion1 sketion2"
+    "sektion1 sektion1 sektion3";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100%;
+    gap: 10px;
+    overflow: visible;
+}
+
+.main #saker2 .main .grid-container-about .sektion1 {
+    grid-area: sektion1;
+    background-color: #c4c4c4;
+    border: #2d3436 solid;
+    border-top-left-radius: 30px;
+    transition: ease-in 0.3s;
+    align-items: center;
+    transform: scale(1);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.main #saker2 .main .grid-container-about .sektion1:hover {
+    transition: ease-out 0.3s;
+    transform: scale(0.95);
+    border-color: #c4c4c4;
+    box-shadow: 0 0 30px 10px rgba(270, 150, 150, 6);
+
+
+}
+
+.main #saker2 .main .grid-container-about .sektion2 {
+    grid-area: sektion2;
+    background-color: #c4c4c4;
+    border: #2d3436 solid;
+    transition: ease-in 0.3s;
+    align-items: center;
+    transform: scale(1);
+    box-shadow: #2d3436 5;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+
+
+}
+.main #saker2 .main .grid-container-about .sektion2:hover {
+    transition: ease-out 0.3s;
+    transform: scale(0.90);
+    border-color: #c4c4c4;
+    box-shadow: 0 0 30px 10px rgba(255, 142, 142, 0.5);
+
+}
+
+.main #saker2 .main .grid-container-about .sektion3 {
+    grid-area: sektion3;
+    background-color: #c4c4c4;
+    border: #2d3436 solid;
+    transition: ease-in 0.3s;
+    align-items: center;
+    transform: scale(1);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.main #saker2 .main .grid-container-about .sektion3:hover {
+    transition: ease-out 0.3s;
+    transform: scale(0.90);
+    border-color: #c4c4c4;
+    box-shadow: 0 0 30px 10px rgba(255, 142, 142, 0.5);
+}
+
+
+.main #saker2 .side {
+    background-color: #c4c4c4;
+    border-radius: 30px;
+    border-top-left-radius: 0;
+    text-align:left;
+    padding: 20px;
+    
+}
+.main #saker2 .side h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.main #saker2 .side h3 {
+    font-size: 16;
+    font-weight: 700;
+}
+
+.main #saker2 .side p {
+    font-size: 16px;
+    font-weight: 400;
+    transform: scale(1);
+    transition: ease-in 1s;
+}
 
